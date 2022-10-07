@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://porta-premiada-felipeleopoldino.netlify.app/">Porta Premiada</a>
 
-## Getting Started
+## 💻 Jogo Porta Premiada
 
-First, run the development server:
+<h3>Jogo que usa como base o Paradoxo de Monty Hall.</h3>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<h4>O paradoxo de Monty Hall considera que existem três portas, atrás de uma existe um prêmio e, atrás das outras duas não existe nada. Na primeira etapa uma pessoa escolhe uma porta (esta ainda não é aberta), após isso uma outra porta (que não foi a escolhida) é aberta e é revelado que não contém nada.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Neste momento, se tem 2 duas portas fechadas (uma porta contem o prêmio e a outra porta não contem nada). Então, após esta etapa temos duas portas fechadas e a pessoa tem a possibilidade de manter a sua escolha inicial ou pode optar em trocar de porta. Então, a pergunta é:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+A melhor opção seria ficar com a porta inicialmente escolhida ou trocar para a porta que sobrou?</h4>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p>Nessa versão pode ser colocada até 10 portas para aumentar o nível de dificuldade</P>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Tecnologias do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+-ReactJs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-Next.Js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-CSS
 
-## Deploy on Vercel
+-JavaScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-React Hooks
+
+
+## Status
+
+- [x] Completo
